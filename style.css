@@ -10,6 +10,12 @@
     max-width: 400px;
   }
   
+  .todos-container {
+    padding: .5em;
+    border: 1px solid var(--gray);
+    border-radius: 8px;
+  }
+
   .todos-container li {
     background: #484E53;
   }
@@ -21,3 +27,20 @@
   .hidden {
     display: none;
   }
+
+  /* .list-group-item span {
+    position: relative;
+    right: 18%;
+  } */
+
+  
+
+  .success {
+    padding: .5em;
+    border: 1px solid var(--success);
+    border-radius: 8px;
+  }
+
+ .task-done {
+  text-decoration: line-through;
+ }
